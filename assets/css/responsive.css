@@ -1,0 +1,1291 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1449px) {
+    img.hero-shp {
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 92%;
+    }
+    .victor_img {
+        /* left: 4%;
+        width: 450px; */
+    }
+    .bg_shp_4 {
+        width: 92%;
+    }
+    .analycis_shp {
+        width: 70%;
+    }
+    .analysis_right img {
+        width: 140px !important;
+    }
+    .hero_wrapper .common_btn {
+        /* right: 36%; */
+    }
+    .common_btn.analycis_btn {
+        margin-left: 40px;
+    }
+    .big_shp2 {
+        bottom: 19%;
+        width: 36%;
+    }
+    .bigshp_20 {
+        top: -48%;
+        width: 59%;
+    }
+    .bigshp_40 {
+        bottom: 34%;
+        width: 36%;
+    }
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+@media (min-width: 1200px) and (max-width: 1366px) {
+    .victor_img {
+        /* left: 4%;
+        width: 400px; */
+    }
+    img.hero-shp {
+        width: 95%;
+    }
+    .hero_content h1 {
+        margin-bottom: 30px;
+    }
+    .analysis_right img {
+        width: 215px !important;
+    }
+    .bg_shp_4 {
+        width: 95%;
+    }
+    .analycis_shp {
+        width: 75%;
+    }
+    .common_btn.analycis_btn {
+        margin-left: 75px;
+    }
+    .shp_1 {
+        right: 0;
+        width: 250px;
+    }
+    .footer_wrapper p {
+        font-size: 25px;
+    }
+    .filed_wrap label {
+        font-size: 25px;
+    }
+    .hero_content h1 {
+        font-size: 50px;
+        margin-bottom: 40px;
+    }
+    .hero_content h2 {
+        font-size: 50px;
+        margin-bottom: 40px;
+    }
+    .hero_content {
+        padding-left: 45px;
+    }
+    .hero_wrapper .common_btn {
+        /* right: 30%; */
+    }
+    .bigshp_40 {
+        bottom: 44%;
+        width: 36%;
+    }
+
+}
+
+
+
+
+
+@media (min-width: 1200px) and (max-width: 1300px) {
+    .area_title h2 {
+        font-size: 55px;
+    }
+    .area_title h3 {
+        font-size: 55px;
+    }
+    .area_title h2 {
+        font-size: 50px;
+    }
+    .bg_shp_4 {
+        width: 98%;
+    }
+    .logo img {
+        width: 155px;
+    }
+    .gues_logo img {
+        width: 160px;
+    }
+    img.hero-shp {
+        width: 97%;
+    }
+    .common_btn {
+        width: 210px;
+        height: 65px;
+        font-size: 25px;
+        line-height: 65px;
+    }
+    .hero_title h2 {
+        font-size: 50px;
+    }
+
+
+}
+
+
+
+
+
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .logo img {
+        width: 120px;
+    }
+    .mainmenu ul li a {
+        font-size: 25px;
+    }
+    .hero_title h2 {
+        font-size: 40px;
+    }
+    img.hero-shp {
+        width: 98%;
+    }
+    .hero_wrapper {
+        /* height: 400px; */
+    }
+    .victor_img {
+        /* left: 3%;
+        width: 350px; */
+    }
+    .hero_content h1 {
+        font-size: 40px;
+    }
+    .hero_content h2 {
+        font-size: 40px;
+    }
+    .hero_content {
+        padding-right: 20px;
+        /* max-width: 595px;
+        text-align: left; */
+        padding-left: 25px;
+    }
+    .hero_content h4 {
+        font-size: 25px;
+    }
+    .hero_content p {
+        font-size: 20px;
+    }
+    .hero_wrapper .common_btn {
+        /* right: 30%; */
+    }
+    .common_btn {
+        width: 190px;
+        height: 60px;
+        font-size: 25px;
+        line-height: 55px;
+    }
+    .area_title h2 {
+        font-size: 40px;
+    }
+    .service_single h4 {
+        font-size: 30px;
+    }
+    .service_single p {
+        font-size: 22px;
+        line-height: 34px;
+    }
+    .srv_icon img {
+        width: 80px;
+    }
+    .area_title h3 {
+        font-size: 50px;
+    }
+    .gues_logo img {
+        width: 140px;
+    }
+    .bg_shp_4 {
+        width: 98%;
+    }
+    .guess_text h2 {
+        font-size: 40px;
+        line-height: 65px;
+    }
+    .gusss_btn {
+        width: 280px;
+        line-height: 65px;
+        font-size: 22px;
+    }
+    .item_count span {
+        font-size: 200px;
+    }
+    .anylics_button.button_gucess {
+        bottom: -20px;
+    }
+    .analycis_cobtebt p {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+    .analysis_right img {
+        width: 170px !important;
+    }
+    .analysis_right h2 {
+        font-size: 36px;
+    }
+    .top_txt span {
+        font-size: 32px;
+        top: 0;
+    }
+    .top_txt h3 {
+        font-size: 40px;
+    }
+    .analysis_left {
+        padding-bottom: 60px;
+    }
+    .analycis_shp {
+        width: 73%;
+    }
+    .analysis_right p {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .footer_logo img {
+        width: 140px;
+    }
+    .footer_wrapper p {
+        font-size: 24px;
+    }
+    .filed_wrap label {
+        font-size: 22px;
+    }
+    .frame_box.frame_input {
+        height: 80px;
+    }
+    .frame_box.textarea_box {
+        height: 200px;
+    }
+    .shp_1 {
+        right: 0;
+        width: 225px;
+    }
+    .big_shp {
+        top: -54%;
+        width: 59%;
+    }
+    .analysis_wrapper {
+        height: 400px;
+    }
+    .analycis_cobtebt h2 {
+        font-size: 36px;
+        line-height: 60px;
+        margin: 0;
+    }
+    .analysis_left {
+        padding-bottom: 0;
+    }
+    .analysis_slider {
+        height: 400px;
+    }
+    .analysis_right img {
+        width: 150px !important;
+    }
+    .ac_icon {
+        width: 90px;
+    }
+    .widget_1 h4 {
+        font-size: 22px;
+    }
+    .widget_1 img {
+        width: 150px;
+    }
+    .bigshp_20 {
+        top: -40%;
+        width: 59%;
+    }
+
+}
+ 
+
+
+
+
+/* LG Device :991px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .logo img {
+        width: 120px;
+    }
+    .mainmenu ul li a {
+        font-size: 24px;
+    }
+    .mainmenu ul li {
+        margin-left: 40px;
+    }
+    .hero_title h2 {
+        font-size: 40px;
+    }
+    .area_title h2 {
+        font-size: 40px;
+    }
+    .srv_icon img {
+        width: 70px;
+    }
+    .service_single h4 {
+        font-size: 24px;
+    }
+    .service_single p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .area_title h3 {
+        font-size: 40px;
+    }
+    .gues_logo img {
+        width: 140px;
+    }
+    .guess_text h2 {
+        font-size: 36px;
+        margin-bottom: 30px;
+        line-height: 65px;
+    }
+    .gusss_btn {
+        width: 250px;
+        height: 60px;
+        line-height: 55px;
+        font-size: 20px;
+    }
+    .item_count span {
+        font-size: 200px;
+    }
+    .bg_shp_4 {
+        width: 98%;
+    }
+    .guesswork_analysis {
+        /* height: 400px; */
+    }
+    .common_btn {
+        width: 215px;
+        height: 60px;
+        font-size: 25px;
+        line-height: 55px;
+    }
+    .analysis_right img {
+        width: 170px !important;
+    }
+    .analysis_right h2 {
+        font-size: 33px;
+    }
+    .analysis_right p {
+        font-size: 20px;
+        line-height: 34px;
+    }
+    .ac_icon {
+        width: 70px;
+    }
+    .top_txt span {
+        font-size: 30px;
+    }
+    .top_txt h3 {
+        font-size: 40px;
+    }
+    .analycis_cobtebt p {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .analysis_left {
+        padding-right: 30px;
+        margin-top: 7px;
+    }
+    .analycis_shp {
+        width: 75%;
+    }
+    img.hero-shp {
+        width: 99%;
+    }
+    .victor_img {
+        display: none;
+    }
+    .hero_content h1 {
+        font-size: 40px;
+    }
+    .hero_content h2 {
+        font-size: 40px;
+        margin-bottom: 35px;
+    }
+    .hero_wrapper {
+        /* height: 400px; */
+    }
+    .hero_content h4 {
+        font-size: 28px;
+    }
+    .analysis_wrapper .owl-next {
+        left: 38%;
+    }
+    .frame_box.frame_input {
+        height: 70px;
+    }
+    .wrap_2 {
+        margin-bottom: 30px !important;
+    }
+    .frame_box.textarea_box {
+        height: 176px;
+    }
+    .filed_wrap label {
+        font-size: 20px;
+    }
+    .footer_logo img {
+        width: 100px;
+    }
+    .footer_wrapper p {
+        font-size: 18px;
+    }
+    .footer_icon {
+        width: 70px;
+        margin: 0 25px;
+        height: 70px;
+    }
+    .shp_1 {
+        right: 0;
+        width: 170px;
+    }
+    header.header_area {
+        padding-top: 50px;
+    }
+    .footer-area {
+        overflow: hidden;
+    }
+    .contact_area {
+        padding-bottom: 40px;
+    }
+    .footer_left h2 {
+        margin-bottom: 30px;
+        font-size: 28px;
+    }
+    .big_shp {
+        top: -55%;
+        width: 53%;
+    }
+    .analycis_cobtebt h2 {
+        font-size: 32px;
+        line-height: 60px;
+    }
+    .analysis_wrapper {
+        margin-top: 0;
+        height: 360px;
+    }
+    .analysis_slider {
+        height: 360px;
+    }
+    .analysis_right img {
+        width: 140px !important;
+        margin-bottom: 0;
+    }
+    .analysis_wrapper .owl-nav {
+        position: absolute;
+        top: -55px;
+        z-index: 2;
+        left: 50%;
+    }
+    .analysis_wrapper {
+        margin-top: -20px;
+    }
+    .widget_1 h4 {
+        font-size: 18px;
+    }
+    .widget_1 img {
+        max-width: 100px;
+    }
+    .widget_2 img {
+        padding: 0 5px;
+        min-width: 65px;
+    }
+    .widget_2 img:nth-child(2) {
+        min-width: 80px !important;
+    }
+    .widget_2 img:nth-child(1) {
+        min-width: 50px !important;
+    }
+    .widget_2 h4 {
+        font-size: 20px;
+        padding-left: 10px;
+    }
+    .block_2 {
+        padding-right: 15px;
+    }
+    .feture_text p {
+        font-size: 24px;
+    }
+    .features_item h2 {
+        font-size: 30px;
+    }
+    .text_2 {
+        line-height: 46px;
+    }
+    .bigshp_20 {
+        top: -43%;
+        width: 55%;
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+/* LG Device :991px. */
+@media (min-width: 885px) and (max-width: 991px) {
+    .widget_1 h4 {
+        font-size: 21px;
+    }
+    .widget_1 img {
+        max-width: 110px;
+    }
+    .widget_2 img {
+        padding: 0 8px;
+        min-width: 60px;
+    }
+    .widget_2 img:nth-child(2) {
+        min-width: 90px !important;
+    }
+    .widget_2 img:nth-child(1) {
+        min-width: 60px !important;
+    }
+    .widget_2 h4 {
+        font-size: 22px;
+        padding-left: 10px;
+    }
+    .block_2 {
+        padding-right: 15px;
+    }
+    
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SM Small Device :320px. */
+@media only screen and (max-width: 767px) {
+    header.header_area {
+        padding-top: 30px;
+        padding-bottom: 15px;
+    }
+    .logo img {
+        width: 70px;
+    }
+    .victor_img {
+        display: none;
+    }
+    .hero_content {
+        padding-right: 0px;
+        max-width: 750px;
+        text-align: center;
+    }
+    .hero_content h1 {
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+    .hero_content h2 {
+        font-size: 30px;
+        margin-bottom: 35px;
+    }
+    .hero_content h4 {
+        font-size: 18px;
+    }
+    .hero_content p {
+        font-size: 16px;
+    }
+    .common_btn {
+        width: 180px;
+        height: 55px;
+        font-size: 24px;
+        line-height: 53px;
+    }
+    img.hero-shp {
+        width: 102%;
+    }
+    .hero_wrapper {
+        /* height: 300px; */
+    }
+    .hero_wrapper .common_btn {
+        /* bottom: -23px;
+        right: 25%; */
+    }
+    .hero_title h2 {
+        font-size: 32px;
+    }
+    .area_title h2 {
+        font-size: 32px;
+    }
+    .srv_icon img {
+        width: 65px;
+    }
+    .service_single h4 {
+        font-size: 22px;
+    }
+    .service_single p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .area_title h3 {
+        font-size: 30px;
+    }
+    .area_title h2 {
+        font-size: 25px;
+    }
+    .service_single {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .gues_logo img {
+        width: 120px;
+    }
+    .guess_text h2 {
+        font-size: 22px;
+        margin-bottom: 35px;
+        line-height: 32px;
+    }
+    .item_count span {
+        font-size: 200px;
+        display: block;
+        margin-bottom: 20px;
+    }
+    .guesswork_wrap {
+        display: block;
+        align-items: flex-start;
+    }
+    .guesswork_wrap img{
+        display: none;
+    }
+    .bg_shp_4 {
+        width: 100%;
+    }
+    .gusss_btn {
+        width: 170px;
+        height: 60px;
+        line-height: 60px;
+        font-size: 16px;
+    }
+    .guess_bottom a:first-child {
+        margin-left: -10px;
+    }
+    .guesswork_analysis {
+        /* height: 360px; */
+        margin-top: 70px;
+        margin-bottom: 150px;
+    }
+    .item_count {
+        margin-left: 35px;
+        padding-top: 0;
+    }
+    .filed_wrap {
+        display: block;
+    }
+    .frame_box.frame_input {
+        height: 65px;
+        width: 100%;
+    }
+    .wrapper_right {
+        padding-left: 0;
+    }
+    .wrap_2 {
+        margin-bottom: 20px !important;
+    }
+    .filed_wrap label {
+        width: 100%;
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .frame_box {
+        width: 100%;
+    }
+    .filed_wrap {
+        margin-top: 25px;
+    }
+    .shp_1 {
+        display: none;
+    }
+    .footer_wrapper {
+        display: block;
+        text-align: center;
+    }
+    .footer_icon {
+        transition: .3s;
+        margin: 25px auto;
+    }
+    .footer_wrapper p {
+        font-size: 24px;
+    }
+    .footer-area {
+        padding: 25px 0;
+    }
+    .footer_left h2 {
+        margin-bottom: 25px;
+        text-align: center;
+        padding-left: 0;
+        font-size: 28px;
+    }
+    .footer_logo img {
+        width: 130px;
+    }
+    .footer_logo {
+        text-align: center;
+        margin-bottom: 35px;
+    }
+    .mainmenu ul li a {
+        font-size: 18px;
+    }
+    .mainmenu ul li {
+        display: inline;
+        margin-left: 0;
+    }
+    .mainmenu {
+        margin-right: 0;
+        position: fixed;
+        left: -100%;
+        top: 0;
+        width: 260px;
+        height: 100%;
+        background: #36494e;
+        z-index: 99999 !important;
+        transition: .3s;
+        padding: 20px;
+        padding-top: 100px;
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    .area_title h3 span img{
+        max-width: 100px;
+    }
+
+    .guesswork_slider .guesswork_wrap{
+        background-color: #fff;
+    }
+    .guesswork_slider .guesswork_wrap .d-flex{
+        justify-content: center;
+    }
+
+    .mainmenu.active{
+        left: 0;
+        opacity: 1;
+        visibility: visible;
+    }
+    .overlay{
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index: 6;
+        width: 100%;
+        height: 100%;
+        transition: .3s;
+        background: #36494e;
+        opacity: 0;
+        visibility: hidden;
+        
+    }
+    .overlay.active{
+        opacity: 1;
+        visibility: visible;
+        opacity: .5;
+    }
+    .mainmenu ul li {
+        display: block;
+        margin-left: 0;
+        margin-bottom: 25px;
+    }
+    .mainmenu ul li a{
+        color: #fff;
+    }
+    .menu_x {
+        display: inline-block;
+        cursor: pointer;
+        width: 20px;
+        position: absolute;
+        top: 10px;
+        right: 20px;
+    }
+    .menu_trigger{
+        display: block;
+        width: 30px;
+        cursor: pointer;
+    }
+    .menu_trigger span{
+        display: block;
+        width: 100%;
+        height: 2px;
+        background-color: #000;
+    }
+    .header-left {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .menu_trigger span:nth-child(2) {
+        margin: 6px 0;
+    }
+    .bg_shp_4 {
+        display: none;
+    }
+    .guesswork_analysis {
+        background: #f5f5f5;
+    }
+    .analycis_shp {
+       display: none;
+    }
+    .analysis_left {
+        padding-bottom: 90px;
+        padding-right: 0;
+        margin-top: 0;
+    }
+    .ac_icon {
+        height: auto;
+        width: 65px;
+    }
+    .top_txt span {
+        font-size: 25px;
+        top: 0;
+    }
+    .top_txt h3 {
+        font-size: 30px;
+    }
+    .analycis_cobtebt p {
+        font-size: 18px;
+        margin: 0;
+        margin-bottom: 20px;
+        padding: 0 !important;
+    }
+    .analysis_left {
+        padding-bottom: 40px;
+    }
+    .analysis_right h2 {
+        font-size: 30px;
+    }
+    .analysis_right img {
+        width: 180px !important;
+    }
+    .analysis_right p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .analysis_slider {
+        margin-top: 0;
+        padding-bottom: 40px;
+        padding-top: 25px;
+    }
+    .analysis_slider_wrapper {
+        padding-top: 0;
+    }
+    .anylics_button {
+        bottom: -25px;
+    }
+    .big_shp, .big_shp2{
+        display: none;
+    }
+    .guesswork_slider .owl-next button {
+        width: 200px;
+        height: 60px;
+        font-size: 25px;
+        line-height: 60px;
+    }
+    .guesswork_slider .owl-next {
+        bottom: -112px;
+        right: 20%;
+    }
+    .analycis_cobtebt h2 {
+        font-size: 30px;
+        line-height: 45px;
+        margin: 0;
+        margin-bottom: 35px;
+    }
+    .analycis_cobtebt h2 br {
+        display: none !important;
+    }
+    .analysis_wrapper {
+        margin-top: 0;
+        height: auto;
+    }
+    .analysis_slider {
+        height: auto;
+    }
+    .analysis_left {
+        padding-bottom: 0;
+        margin-top: 60px;
+    }
+    .analysis_tag {
+        display: none;
+    }
+    .footer_main_wrapper {
+        display: block;
+    }
+    .footer_right {
+        width: 100%;
+        padding-left: 0;
+        margin-bottom: 40px;
+    }
+    .footer_left {
+        display: block;
+        width: 100%;
+        padding-right: 0;
+        margin-top: 25px;
+    }
+    .block_1 {
+        width: 100%;
+    }
+    .widget_1 {
+        padding-left: 0;
+    }
+    .widget_1 h4 {
+        font-size: 20px;
+        padding-left: 15px;
+    }
+    .widget_1 img {
+        width: 125px;
+    }
+    .block_2 {
+        width: 100%;
+        padding-right: 0;
+    }
+    .widget_2 h4 {
+        font-size: 22px;
+    }
+    .widget_2 img {
+        padding: 0 10px;
+        min-width: 100px;
+    }
+    .widget_2 img:nth-child(1) {
+        min-width: 80px !important;
+    }
+    .hero_content.hero_2  h2 {
+        margin-bottom: 15px;
+    }
+    .feture_text p {
+        font-size: 26px;
+    }
+    .text_2 {
+        line-height: 35px;
+    }
+    .features_wrap.item_3 {
+        margin-top: 0;
+    }
+    .features_wrap {
+        padding: 0 15px;
+        max-width: 380px;
+        margin: 0 auto;
+    }
+    .feature_4::before {
+        left: 15px;
+    }
+    .feature_2::before {
+        left: 15px;
+    }
+    .mainmenu ul li ul li {
+        width: auto;
+        height: auto;
+        line-height: 1;
+        text-align: right;
+    }
+    .mainmenu ul li ul li::before {
+        display: none;
+    }
+    .mainmenu ul li ul li::after {
+        display: none;
+    }
+    .mainmenu ul li ul {
+        position: relative;
+        left: 0;
+        transform: unset;
+        top: 0;
+        width: auto;
+        margin-top: 0px;
+        opacity: 1;
+        visibility: visible;
+        color: #fff;
+    }
+    .mainmenu li ul::after {
+        display: none;
+    }
+    .mainmenu li ul li a:hover {
+        color: #fff;
+    }
+    .mainmenu ul li:hover ul {
+        opacity: 1;
+        visibility: visible;
+        margin-top: 0;
+    }
+    .mainmenu ul li:last-child {
+        margin-top: 20px;
+    }
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+  
+    
+    
+ 
+}
+
+
+
+@media (min-width: 1299px) {
+    /* .container-fluid{
+        position: relative;
+    } */
+
+        .col,
+        .col-1,
+        .col-10,
+        .col-11,
+        .col-12,
+        .col-2,
+        .col-3,
+        .col-4,
+        .col-5,
+        .col-6,
+        .col-7,
+        .col-8,
+        .col-9,
+        .col-auto,
+        .col-lg,
+        .col-lg-1,
+        .col-lg-10,
+        .col-lg-11,
+        .col-lg-12,
+        .col-lg-2,
+        .col-lg-3,
+        .col-lg-4,
+        .col-lg-5,
+        .col-lg-6,
+        .col-lg-7,
+        .col-lg-8,
+        .col-lg-9,
+        .col-lg-auto,
+        .col-md,
+        .col-md-1,
+        .col-md-10,
+        .col-md-11,
+        .col-md-12,
+        .col-md-2,
+        .col-md-3,
+        .col-md-4,
+        .col-md-5,
+        .col-md-6,
+        .col-md-7,
+        .col-md-8,
+        .col-md-9,
+        .col-md-auto,
+        .col-sm,
+        .col-sm-1,
+        .col-sm-10,
+        .col-sm-11,
+        .col-sm-12,
+        .col-sm-2,
+        .col-sm-3,
+        .col-sm-4,
+        .col-sm-5,
+        .col-sm-6,
+        .col-sm-7,
+        .col-sm-8,
+        .col-sm-9,
+        .col-sm-auto,
+        .col-xl,
+        .col-xl-1,
+        .col-xl-10,
+        .col-xl-11,
+        .col-xl-12,
+        .col-xl-2,
+        .col-xl-3,
+        .col-xl-4,
+        .col-xl-5,
+        .col-xl-6,
+        .col-xl-7,
+        .col-xl-8,
+        .col-xl-9,
+        .col-xl-auto{
+            position: unset;
+        }
+    .victor_img{
+        position: absolute;
+        left: 0;
+        max-width: 800px;
+        /* right: calc(100vw); */
+        /* left: 0; */
+    }
+    .guesswork_wrap{
+        position: unset ;
+    }
+    .guessWorkStepImage{
+        position: absolute;
+        /* max-width: 800px;
+        width: 100%;
+        right: 80px; */
+        right: 0;
+        width: 50%;
+    }
+
+    .resetButton {
+        position: absolute;
+        /* bottom: -35px;
+        right: 450px; */
+        /* bottom: 100%; */
+        transform: translate(50%, 100%);
+        right: 25%;
+        bottom: 50%;
+    }
+}
+
+
+@media (max-width: 2500px) {
+    .resetButton {
+        position: absolute;
+        /* transform: translate(50%, 100%); */
+        right: 25%;
+        bottom: 15%;
+    }
+}
+@media (max-width: 2340px) {
+    .resetButton {
+        position: absolute;
+        transform: translate(50%, 100%);
+        right: 25%;
+        bottom: 20%;
+    }
+}
+@media (max-width: 2200px) {
+    .resetButton {
+        position: absolute;
+        transform: translate(50%, 100%);
+        right: 25%;
+        bottom: 25%;
+    }
+}
+@media (max-width: 2100px) {
+    .resetButton {
+        position: absolute;
+        transform: translate(50%, 100%);
+        right: 25%;
+        bottom: 28%;
+    }
+}
+@media (max-width: 2000px) {
+    .resetButton {
+        position: absolute;
+        transform: translate(50%, 100%);
+        right: 25%;
+        bottom: 30%;
+    }
+}
+@media (max-width: 1900px) {
+    .resetButton {
+        position: absolute;
+        transform: translate(50%, 100%);
+        right: 25%;
+        bottom: 34%;
+    }
+}
+@media (max-width: 1800px) {
+    .resetButton {
+        position: absolute;
+        transform: translate(50%, 100%);
+        right: 25%;
+        bottom: 37%;
+    }
+}
+@media (max-width: 1700px) {
+    .resetButton {
+        position: absolute;
+        transform: translate(50%, 100%);
+        right: 25%;
+        bottom: 40%;
+    }
+}
+@media (max-width: 1600px) {
+    .resetButton {
+        position: absolute;
+        transform: translate(50%, 100%);
+        right: 25%;
+        bottom: 43%;
+    }
+}
+@media (max-width: 1500px) {
+    .resetButton {
+        position: absolute;
+        transform: translate(50%, 100%);
+        right: 25%;
+        bottom: 47%;
+    }
+}
+@media (max-width: 1400px) {
+    .resetButton {
+        position: absolute;
+        transform: translate(50%, 100%);
+        right: 25%;
+        bottom: 50%;
+    }
+}
+@media (max-width: 1300px) {
+    .resetButton {
+        position: absolute;
+        transform: translate(50%, 100%);
+        right: 30%;
+        bottom: 37%;
+    }
+}
+@media (max-width: 1200px) {
+    .resetButton {
+        display: none;
+    }
+}
+@media (min-width: 2500px) {
+    .resetButton {
+        position: absolute;
+        transform: translate(50%, 100%);
+        right: 25%;
+        bottom: 10%;
+    }
+}

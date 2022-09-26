@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" type="image/x-icon" href="./assets/img/fav.png">
+    <title>سمة | Sima</title>
+    <!-- <link href="https://use.typekit.net/zkd0et1.css" rel="stylesheet"> -->
+    <link href="https://use.typekit.net/zkd0etl.css" rel="stylesheet">
+    <link href="./assets/css/bootstrap-rtl.min.css" rel="stylesheet">
+    <link href="./assets/css/owl.carousel.css" rel="stylesheet">
+    <link href="./assets/css/animate.css" rel="stylesheet">
+    <link href="./assets/css/style.css" rel="stylesheet">
+    <link href="./assets/css/responsive.css" rel="stylesheet">
+
+    <style>
+        .guess_bottom {
+            max-width: 90%;
+        }
+
+        .guess_bottom input[type=radio] {
+            display: none;
+        }
+
+        .guess_bottom input[type=radio]:checked+button {
+            background: #e0f800;
+            color: #36494e;
+        }
+
+        .guess_bottom .divSeries {
+            display: inline;
+        }
+
+        .guess_bottom .divPodcast {
+            display: inline;
+        }
+
+        .guess_bottom .gusss_btn {
+            min-width: 320px;
+        }
+
+        /* .gusss_btn:hover {
+                background: #e0f800;
+                color: #36494e;
+            } */
+        .gusss_btn {
+            margin-bottom: 25px;
+        }
+
+        .result-span {
+            font-weight: bold;
+        }
+
+        .owlnav {
+            position: absolute;
+            top: -30px;
+            z-index: 2;
+            left: 52%;
+            transform: translateX(-50%);
+            display: flex;
+            align-items: center;
+        }
+
+        .gusss_btn:disabled {
+            /* background: #aaa; */
+        }
+
+        .gusss_btn:disabled:hover {
+            /* color: #fff;
+            background: #aaa; */
+        }
+
+        .owl-nav {
+            display: none !important;
+        }
+
+        .owl-nav .owl-prev.disabled,
+        .owl-nav .owl-next.disabled {
+            display: none !important;
+        }
+
+        .service_single .subText{
+            font-size: 40px;
+            line-height: 2.5;
+            color: #8c8c8c;
+        }
+
+        .underline {
+            position: relative;
+            z-index: 1;
+        }
+        .underline::after {
+            position: absolute;
+            left: 0;
+            bottom: 8px;
+            height: 15px;
+            width: 100%;
+            background: #3bf4bb;
+            content: '';
+            z-index: -2;
+        }
+        a.underline {
+            position: relative;
+            z-index: 1;
+            color: inherit;
+        }
+        a.underline::after {
+            position: absolute;
+            left: 0;
+            bottom: 4px;
+            height: 3px;
+            width: 100%;
+            background: #8c8c8c;
+            content: '';
+            z-index: -2;
+        }
+    </style>
+</head>
+
+
+
+
+<body>
+
+    <div class="artboard">
+        <div class="overlay"></div>
+
+
+        <!----------- Header Area Start  ----------->
+        <header class="header_area wow fadeInDown">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-3 col-md-3 col-12">
+                        <div class="header-left">
+                            <div class="logo">
+                                <a href="index.html"><img src="./assets/img/logo.png" alt=""></a>
+                            </div>
+                            <div class="menu_trigger">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-9 col-md-9 col-12">
+                        <div class="mainmenu">
+                            <div class="menu_x">
+                                <img src="./assets/img/x.png" alt="">
+                            </div>
+                            <ul>
+                                <li><a href="#service">عن سمة</a></li>
+                                <li><a href="">الباقات</a>
+                                    <ul>
+                                        <li>قريبًا!</li>
+                                    </ul>
+                                </li>
+                                <li><a href="">الوظائف</a>
+                                    <ul>
+                                        <li>قريبًا!</li>
+                                    </ul>
+                                </li>
+                                <li><a href="#contact">تواصل معنا</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!----------- Header Area End  ----------->
+
+
+
+        <!----------- Hero Area Start  ----------->
+        <div class="hero_area mt-5">
+            <div class="hero_wrapper">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-12">
+                            <div class="hero_content">
+                                <h2 class="wow fadeInDown">هدفك القادم</h2>
+                                <h1 class="wow fadeInDown">ستسجّله سمة.</h1>
+                                <p class="wow fadeInDown">ذكاء اصطناعي سعودي
+                                <br>يقتنص المواهب، ويسجل الأهداف.</p>
+                                <a href="#simajurrat" class="common_btn next_hero wow fadeInUp"><span>جرّب سمة</span></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-6 pl-0 text-left">
+                            <img src="./assets/img/victor-1.png" class="victor_img wow fadeInLeft" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- <img src="./assets/img/shp-2.png" class="hero-shp" alt=""> -->
+            </div>
+        </div>
+        <!----------- Hero Area End  ----------->
+
+
+
+
+
+        <!----------- Service Area Start  ----------->
+        <div class="services__area">
+            <div class="container">
+                <div class="row" id="service">
+                    <div class="col-lg-12">
+                        <div class="area_title mb-5 text-center">
+                            <h2 class="wow fadeInDown" style="color:#252525">سمة تعطيك <span class="underline">العلم الأكيد</span><img src="./assets/img/verified_arrow.png" alt=""></h2>
+                            <div class="service_single">
+                                <p class="wow fadeInDown subText" style="color:#8c8c8c">
+                                تحدثنا مع أكثر من <a href="" class="underline"> 13 مدرب محترف<a>، وهذه المخرجات<br>
+                                        الأكثر أهمية لعملهم
+                                </p>
+                                <!-- <p class="wow fadeInDown subText">تحدثنا مع أكثر من 13 مدرب محترف، وهذه المخرجات<br>
+                                الأكثر أهمية لعملهم.</p> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                        <div class="service_single wow fadeInDown" data-wow-duration=".6s" data-wow-delay=".2s">
+                            <div class="d-flex">
+                                <div class="ml60px">
+                                    <div class="srv_icon">
+                                        <img src="./assets/img/icon-1.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="flex-fill">
+                                    <h4>التمركز المثالي</h4>
+                                    <p>اكتشف الدور الأنسب<br>
+                                    لك في الملعب.</p>
+                                </div>
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                        <div class="service_single wow fadeInDown" data-wow-duration=".7s" data-wow-delay=".2s">
+                            <div class="d-flex">
+                                <div class="ml60px">
+                                    <div class="srv_icon">
+                                        <img src="./assets/img/icon-2.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="flex-fill">
+                                    <h4>الأرقام تتحدث</h4>
+                                    <p>ما هو ترتيبك إحصائيًا<br>
+                                    بالنسبة لبقية اللاعبين؟</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                        <div class="service_single wow fadeInDown" data-wow-duration=".8s" data-wow-delay=".2s">
+                            <div class="d-flex">
+                                <div class="ml60px">
+                                    <div class="srv_icon">
+                                        <img src="./assets/img/icon-3.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="flex-fill">
+                                    <h4>تقييم السرعة</h4>
+                                    <p>نصائح وتحسينات حسب<br>
+                                    تقييم سرعتك.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                        <div class="service_single wow fadeInDown" data-wow-duration=".9s" data-wow-delay=".2s">
+                            <div class="d-flex">
+                                <div class="ml60px">
+                                    <div class="srv_icon">
+                                        <img src="./assets/img/icon-4.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="flex-fill">
+                                    <h4>تقييم التمريرات</h4>
+                                    <p>نصائح وتحسينات حسب<br>
+                                    تقييم تمريراتك.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                        <div class="service_single wow fadeInDown" data-wow-duration=".10s" data-wow-delay=".2s">
+                            <div class="d-flex">
+                                <div class="ml60px">
+                                    <div class="srv_icon">
+                                        <img src="./assets/img/icon-5.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="flex-fill">
+                                    <h4>تقييم التسديدات</h4>
+                                    <p>نصائح وتحسينات حسب<br>
+                                    تقييم تسديداتك.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                        <div class="service_single wow fadeInDown" data-wow-duration=".11s" data-wow-delay=".2s">
+                            <div class="d-flex">
+                                <div class="ml60px">
+                                    <div class="srv_icon">
+                                        <img src="./assets/img/icon-6.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="flex-fill">
+                                    <h4>تقييم المراوغة</h4>
+                                    <p>نصائح وتحسينات حسب<br>
+                                    تقييم مراوغتك.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="row justify-content-center mt-5">
+                    <div class="col-lg-10">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-3 col-6">
+                                <div class="service_single wow fadeInDown" data-wow-duration=".9s" data-wow-delay=".2s">
+                                    <div class="srv_icon">
+                                        <img class="icon-5" src="./assets/img/icon-5.png" alt="">
+                                    </div>
+                                    <h4>توقيت النشر</h4>
+                                    <p>أي ساعة في اليوم <br>
+                                        ستكون مثالية لك؟</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-3 col-6">
+                                <div class="service_single wow fadeInDown" data-wow-duration=".9s" data-wow-delay=".2s">
+                                    <div class="srv_icon">
+                                        <img class="icon-6" src="./assets/img/icon-6.png" alt="">
+                                    </div>
+                                    <h4>معدل النشر</h4>
+                                    <p>كم مرة عليك أن تنشر <br>
+                                        في الشهر الواحد؟</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-3 col-6">
+                                <div class="service_single wow fadeInDown" data-wow-duration=".9s" data-wow-delay=".2s">
+                                    <div class="srv_icon">
+                                        <img class="icon-7" src="./assets/img/icon-7.png" alt="">
+                                    </div>
+                                    <h4>طول الحلقة</h4>
+                                    <p>أي طول للحلقة <br>
+                                        سيفضله متابعوك؟</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+        <!----------- Service Area End  ----------->
+
+
+
+        <!----------- Guesswork Area Start  ----------->
+        <div class="guesswork_area">
+            <div class="container">
+                <div class="row" id="simajurrat">
+                    <div class="col-lg-12 mb-5">
+                        <div class="area_title text-center" id="carrer">
+                            <h3 class="wow fadeInDown">ليست خيالًا نطمح له، <span>بل واقع وصلنا له اليوم.</span></h3>
+                            <h3 class="wow fadeInDown" style="line-height: 1.5;">جرّب سمة بنفسك!</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="gues_logo text-center">
+                            <img class="wow fadeInDown mb-3" src="./assets/img/logo_2.png" alt="">
+                            <p class="logoSubTitle">النموذج التجريبي</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div style="height: 200px;"></div> -->
+
+            <div class="guesswork_analysis my-5">
+                <!-- <div class="btn_wrap">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12 text-center">
+                                <span class="common_btn wow fadeInDown">نموذج تجريبي</span>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                <div class="container-fluid my-5">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="guesswork_slider">
+                                <div class="guesswork_wrap active">
+                                    <div class="d-flex">
+                                        <div class="mt-5">
+                                            <img src="./assets/img/calculator_step_1.png" class="guessWorkStepImage" alt="">
+                                        </div>
+                                        <div class="text-center">
+                                            <div class="item_count wow fadeInDown">
+                                                <span>1</span>
+                                            </div>
+                                            <div class="guess_text ">
+                                                <h2 class="wow fadeInDown">املأ بيانات<br>
+ اللاعب الصحيّة</h2>
+                                                <div class="guess_bottom wow fadeInDown">
+                                                    <div class="field">
+                                                        <input type="text" class="form-control inputField numberformat" placeholder="العمر" id="age">
+                                                        <label>العمر</label>
+                                                    </div>
+                                                    <div class="field">
+                                                        <input type="text" class="form-control inputField numberformat" placeholder="الوزن (كجم)" id="height">
+                                                        <label>الوزن (كجم)</label>
+                                                    </div>
+                                                    <div class="field">
+                                                        <input type="text" class="form-control inputField numberformat" placeholder="الطول (سم)" id="weight">
+                                                        <label>الطول (سم)</label>
+                                                    </div>
+                                                    <!-- <input type="text" class="form-control inputField" placeholder="الوزن (كجم)" id="height"> -->
+                                                    <!-- <input type="text" class="form-control inputField" placeholder="الطول (سم)" id="weight"> -->
+                                                </div>
+                                            </div>
+                                            <button class="common_btn btn_analysis gusss_btn" value="step_1">التالي</button>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="guesswork_wrap">
+                                    <div class="d-flex">
+                                        <div>
+                                            <img src="./assets/img/calculator_step_1.png" class="guessWorkStepImage">
+                                        </div>
+                                        <div class="text-center">
+                                            <div class="item_count">
+                                                <span>2</span>
+                                            </div>
+                                            <div class="guess_text ">
+                                                <h2 class="">املأ تقييمات<br>
+                                                اللاعب الأدائية</h2>
+                                                <div class="guess_bottom">
+                                                    <div class="field">
+                                                        <input type="text" class="form-control inputField numberformat" placeholder="معدل السرعة (م\ث)" id="speed">
+                                                        <label>معدل السرعة (م\ث)</label>
+                                                    </div>
+                                                    <div class="field">
+                                                        <input type="text" class="form-control inputField numberformat" placeholder="التمريرات الصحيحة (%)" id="passing">
+                                                        <label>التمريرات الصحيحة (%)</label>
+                                                    </div>
+                                                    <div class="field">
+                                                        <input type="text" class="form-control inputField numberformat" placeholder="التسديدات الصحيحة (%)" id="shooting">
+                                                        <label>التسديدات الصحيحة (%)</label>
+                                                    </div>
+                                                    <div class="field">
+                                                        <input type="text" class="form-control inputField numberformat" placeholder="المراوغة (%)" id="dribbling">
+                                                        <label>المراوغة (%)</label>
+                                                    </div>
+                                                    <!-- <input type="text" class="form-control inputField" placeholder="معدل السرعة (م\ث)" id=""> -->
+                                                    <!-- <input type="text" class="form-control inputField" placeholder="التمريرات الصحيحة (%)" id="passing"> -->
+                                                    <!-- <input type="text" class="form-control inputField" placeholder="التسديدات الصحيحة (%)" id="shooting">
+                                                    <input type="text" class="form-control inputField" placeholder="المراوغة (%)" id="dribbling"> -->
+                                                </div>
+                                            </div>
+                                            <button class="common_btn btn_analysis gusss_btn" value="step_2">تحليل!</button>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="guesswork_wrap">
+                                    <div class="d-flex">
+                                        <div>
+                                            <img src="./assets/img/calculator_step_1.png" class="guessWorkStepImage">
+                                        </div>
+                                        <div class="text-center">
+                                            <div class="item_count">
+                                                <span>3</span>
+                                            </div>
+                                            <div class="guess_text ">
+                                                <h2 class="">انتظر قليلًا،<br>
+                                                جارٍ التحليل...</h2>
+                                                <p style="color:#8c8c8c;font-size: 32px;">(<span id="loaderNumber">17</span>\<span id="loaderTotal">275</span>)..</p>
+                                                <img src="./assets/img/loader.gif" alt="">
+                                            </div>
+                                            <button class="common_btn btn_analysis gusss_btn" id="calculateButton" style="display: none;">التالي</button>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="guesswork_wrap">
+                                    <div class="d-flex">
+                                        <div>
+                                            <img src="./assets/img/calculator_step_4.png" class="guessWorkStepImage">
+                                            <button class="common_btn resetButton">أعد التحليل</button>
+                                        </div>
+                                        <div class="text-center">
+                                            <div class="item_count">
+                                                <span>4</span>
+                                            </div>
+                                            <div class="guess_text">
+                                                <h2 style="color:#262626;font-size: 45px;">أصبت الهدف!<br>
+                                                التحليل جاهز.</h2>
+                                                <p class="timeRandomPercentText">دقة تعلم الآلة: <span class="randomPercentGen">96.4%</span><br>
+                                                آخر استخدام للشبكة العصبية لسمة:<br>
+                                                <span class="currentTime">27.08.2022 15:94</span></p>
+                                                <img src="./assets/img/icon-1.png" alt="">
+                                                <h2 style="color:#262626;font-size: 31px;">التمركز المثالي</h2>
+                                                <p style="color:#8c8c8c;font-size: 31px;">تقترح سمة لك بأن تلعب <br> <span id="resultPosition"> ر أيمن </span> في المباريات<br> 
+                                                القادمة</p>
+                                            </div>
+                                            <!-- <button class="common_btn btn_analysis prev">السابق</button> -->
+                                            <button class="common_btn btn_analysis gusss_btn">التالي</button>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="guesswork_wrap">
+                                    <div class="d-flex">
+                                        <div>
+                                            <img src="./assets/img/calculator_step_4.png" class="guessWorkStepImage">
+                                            <button class="common_btn resetButton">أعد التحليل</button>
+                                        </div>
+                                        <div class="text-center">
+                                            <div class="item_count">
+                                                <span>4</span>
+                                            </div>
+                                            <div class="guess_text">
+                                                <h2 style="color:#262626;font-size: 45px;">أصبت الهدف!<br>
+                                                التحليل جاهز.</h2>
+                                                <p class="timeRandomPercentText">دقة تعلم الآلة: <span class="randomPercentGen">96.4%</span><br>
+                                                آخر استخدام للشبكة العصبية لسمة:<br>
+                                                <span class="currentTime">27.08.2022 15:94</span></p>
+                                                <img src="./assets/img/icon-2.png" alt="">
+                                                <h2 style="color:#262626;font-size: 31px;">الأرقام تتحدث</h2>
+                                                <p class="textGrey">بالنسبة لبقية لاعبي <br><span id="playerRank">قلب الدفاع</span>،
+                                                أنت أفضل <br> من <span id="percentileRank">0</span>% من اللاعبين.</p>
+                                            </div>
+                                            <button class="common_btn btn_analysis prev">السابق</button>
+                                            <button class="common_btn btn_analysis gusss_btn">التالي</button>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="guesswork_wrap">
+                                    <div class="d-flex">
+                                        <div>
+                                            <img src="./assets/img/calculator_step_4.png" class="guessWorkStepImage">
+                                            <button class="common_btn resetButton">أعد التحليل</button>
+                                        </div>
+                                        <div class="text-center">
+                                            <div class="item_count">
+                                                <span>4</span>
+                                            </div>
+                                            <div class="guess_text">
+                                                <h2 style="color:#262626;font-size: 45px;">أصبت الهدف!<br>
+                                                التحليل جاهز.</h2>
+                                                <p class="timeRandomPercentText">دقة تعلم الآلة: <span class="randomPercentGen">96.4%</span><br>
+                                                آخر استخدام للشبكة العصبية لسمة:<br>
+                                                <span class="currentTime">27.08.2022 15:94</span></p>
+                                                <img src="./assets/img/icon-3.png" alt="">
+                                                <h2 style="color:#262626;font-size: 31px;">تقييم السرعة</h2>
+                                                <!-- <p style="color:#8c8c8c;font-size: 31px;">Percentile Speed: <span id="percentileSpeed"></span></p> -->
+                                                <p class="percentilePlaceholderText"><span id="placeholderSpeed"></span></p>
+                                            </div>
+                                            <button class="common_btn btn_analysis prev">السابق</button>
+                                            <button class="common_btn btn_analysis gusss_btn">التالي</button>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="guesswork_wrap">
+                                    <div class="d-flex">
+                                        <div>
+                                            <img src="./assets/img/calculator_step_4.png" class="guessWorkStepImage">
+                                            <button class="common_btn resetButton">أعد التحليل</button>
+                                        </div>
+                                        <div class="text-center">
+                                            <div class="item_count">
+                                                <span>4</span>
+                                            </div>
+                                            <div class="guess_text">
+                                                <h2 style="color:#262626;font-size: 45px;">أصبت الهدف!<br>
+                                                التحليل جاهز.</h2>
+                                                <p class="timeRandomPercentText">دقة تعلم الآلة: <span class="randomPercentGen">96.4%</span><br>
+                                                آخر استخدام للشبكة العصبية لسمة:<br>
+                                                <span class="currentTime">27.08.2022 15:94</span></p>
+                                                <img src="./assets/img/icon-4.png" alt="">
+                                                <h2 style="color:#262626;font-size: 31px;">تقييم التمريرات</h2>
+                                                <!-- <p style="color:#8c8c8c;font-size: 31px;">Percentile Dribbling: <span id="percentileDribbling"></span></p> -->
+                                                <p class="percentilePlaceholderText"><span id="placeholderDribbling"></span></p>
+                                            </div>
+                                            <button class="common_btn btn_analysis prev">السابق</button>
+                                            <button class="common_btn btn_analysis gusss_btn">التالي</button>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="guesswork_wrap">
+                                    <div class="d-flex">
+                                        <div>
+                                            <img src="./assets/img/calculator_step_4.png" class="guessWorkStepImage">
+                                            <button class="common_btn resetButton">أعد التحليل</button>
+                                        </div>
+                                        <div class="text-center">
+                                            <div class="item_count">
+                                                <span>4</span>
+                                            </div>
+                                            <div class="guess_text">
+                                                <h2 style="color:#262626;font-size: 45px;">أصبت الهدف!<br>
+                                                التحليل جاهز.</h2>
+                                                <p class="timeRandomPercentText">دقة تعلم الآلة: <span class="randomPercentGen">96.4%</span><br>
+                                                آخر استخدام للشبكة العصبية لسمة:<br>
+                                                <span class="currentTime">27.08.2022 15:94</span></p>
+                                                <img src="./assets/img/icon-5.png" alt="">
+                                                <h2 style="color:#262626;font-size: 31px;">تقييم التسديدات</h2>
+                                                <!-- <p style="color:#8c8c8c;font-size: 31px;">Percentile Shooting: <span id="percentileShooting"></span></p> -->
+                                                <p class="percentilePlaceholderText"><span id="placeholderShooting"></span></p>
+                                            </div>
+                                            <button class="common_btn btn_analysis prev">السابق</button>
+                                            <button class="common_btn btn_analysis gusss_btn">التالي</button>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="guesswork_wrap">
+                                    <div class="d-flex">
+                                        <div>
+                                            <img src="./assets/img/calculator_step_4.png" class="guessWorkStepImage">
+                                            <button class="common_btn resetButton">أعد التحليل</button>
+                                        </div>
+                                        <div class="text-center">
+                                            <div class="item_count">
+                                                <span>4</span>
+                                            </div>
+                                            <div class="guess_text">
+                                                <h2 style="color:#262626;font-size: 45px;">أصبت الهدف!<br>
+                                                التحليل جاهز.</h2>
+                                                <p class="timeRandomPercentText">دقة تعلم الآلة: <span class="randomPercentGen">96.4%</span><br>
+                                                آخر استخدام للشبكة العصبية لسمة:<br>
+                                                <span class="currentTime">27.08.2022 15:94</span></p>
+                                                <img src="./assets/img/icon-6.png" alt="">
+                                                <h2 style="color:#262626;font-size: 31px;">تقييم المراوغة</h2>
+                                                <!-- <p style="color:#8c8c8c;font-size: 31px;">Percentile Passing: <span id="percentilePassing"></span></p> -->
+                                                <p class="percentilePlaceholderText"><span id="placeholderPassing"></span></p>
+                                            </div>
+                                            <button class="common_btn btn_analysis prev">السابق</button>
+                                            <!-- <button class="common_btn btn_analysis gusss_btn">التالي</button> -->
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- <img src="./assets/img/bg-shp-4.png" class="bg_shp_4" alt=""> -->
+
+            </div>
+
+            <!-- <div style="height: 200px;"></div> -->
+
+        </div>
+        <!----------- Guesswork Area End  ----------->
+
+
+        <div class="icon_area" id="icon_area">
+            <div class="container">
+                <div class="row" id="">
+                    <div class="col-lg-12">
+                        <div class="area_title mb-5 text-center">
+                            <h2 class="wow fadeInDown"alt="">والمزيد من الرياضات قادمة قريبًا!</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-6 my-4 text-center">
+                        <div class="service_single wow fadeInDown" data-wow-duration=".6s" data-wow-delay=".2s">
+                            <div class="srv_icon">
+                                <img src="./assets/img/product_icon_1.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-6 my-4 text-center">
+                        <div class="service_single wow fadeInDown" data-wow-duration=".7s" data-wow-delay=".2s">
+                            <div class="srv_icon">
+                                <img src="./assets/img/product_icon_2.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-6 my-4 text-center">
+                        <div class="service_single wow fadeInDown" data-wow-duration=".8s" data-wow-delay=".2s">
+                            <div class="srv_icon">
+                                <img src="./assets/img/product_icon_3.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-6 my-4 text-center">
+                        <div class="service_single wow fadeInDown" data-wow-duration=".9s" data-wow-delay=".2s">
+                            <div class="srv_icon">
+                                <img src="./assets/img/product_icon_4.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-6 my-4 text-center">
+                        <div class="service_single wow fadeInDown" data-wow-duration=".10s" data-wow-delay=".2s">
+                            <div class="srv_icon">
+                                <img src="./assets/img/product_icon_5.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-6 my-4 text-center">
+                        <div class="service_single wow fadeInDown" data-wow-duration=".11s" data-wow-delay=".2s">
+                            <div class="srv_icon">
+                                <img src="./assets/img/product_icon_6.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!----------- Contact Area Start  ----------->
+        <div class="contact_area">
+            <div class="container">
+                <div class="row" id="contact">
+                    <div class="col-lg-12 mb-5">
+                        <div class="area_title text-center">
+                            <h3 class="wow fadeInDown roman"><span class="bold">الجمهور</span> <span><img src="./assets/img/contact_icon.png" alt=""></span> دافعنا الأول.</h3>
+                            <h3 class="wow fadeInDown secondTitle">لنبق على اتصال.</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center mt-5">
+                    <div class="col-lg-10">
+                        <div action="" id="register">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-5 col-md-6">
+                                    <div class="">
+                                        <div class="filed_wrap wrap_2 wow fadeInDown">
+                                            <input type="text" id="name" class="form-control inputField" placeholder="الاسم الكريم">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-5 col-md-6">
+                                    <div class="">
+                                        <div class="filed_wrap wow fadeInDown">
+                                            <input type="text" id="mail" class="form-control inputField" placeholder="البريد الإلكتروني">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-10 col-md-12 text-center">
+                                    <div class="filed_wrap wow fadeInDown">
+                                        <input type="text" id="msg" class="form-control inputField" placeholder="محتوى الرسالة">
+                                    </div>
+                                    <button type="submit" class="common_btn mt-5"
+                                        onclick="messages();sendEmail()">إرسال</button>
+                                    <span id="danger"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="success">
+                            <button class="common_btn">تم الإرسال!</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!----------- Contact Area End  ----------->
+
+
+
+
+        <!----------- Footer Area Start  ----------->
+        <footer class="footer-area">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-12">
+                        <div class="footer_main_wrapper">
+                            <div class="footer_right">
+                                <div class="footer_logo">
+                                    <a href="index.html"><img src="assets/img/logo.png" alt=""></a>
+                                    <!-- <p>ذكاء اصطناعي سعودي<br>
+                                    انطلق للعالم من:</p> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer_main_wrapper mt-4" style="position: relative;">
+                            <div class="footer_left">
+                                <div class="block_1">
+                                    <div class="widget_1"><h4>ذكاء اصطناعي سعودي<br>
+                                    انطلق للعالم من</h4>
+                                    </div>
+                                    <div class="widget_1">
+                                        <img src="assets/img/fl-1.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="block_2">
+                                    <div class="widget_2">
+                                        <h4>برعاية:</h4>
+                                    </div>
+                                    <div class="widget_2">
+                                        <img src="assets/img/fl-2.png" alt="">
+                                        <img src="assets/img/fl-3.png" alt="">
+                                        <!-- <img src="assets/img/fl-4.png" alt=""> -->
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="assets/img/shp-1.png" class="shp_1" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!----------- Footer Area End  ----------->
+
+
+    </div>
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/Popper.js"></script>
+    <script src="./assets/js/wow.min.js"></script>
+    <script src="./assets/js/owl.carousel.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/script.js"></script>
+
+
+</body>
+
+</html>
